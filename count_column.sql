@@ -1,0 +1,4 @@
+SELECT COUNT(*)
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_SCHEMA = '<schema_name>'
+    AND TABLE_NAME = '<table_name>';
